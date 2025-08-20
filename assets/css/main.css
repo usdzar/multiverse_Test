@@ -5,6 +5,7 @@
 	Multiverse by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 @-moz-keyframes spinner {
@@ -296,6 +297,39 @@ input, select, textarea {
 		}
 
 	}
+
+
+.gallery-link {
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
+.gallery-link img {
+    display: block;
+}
+#main .thumb > .gallery-link {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+a.gallery-link {
+    overflow: hidden;
+}
+a.gallery-link img {
+    transition: transform 0.2s ease-out;
+}
+a.gallery-link:hover img {
+    transform: scale(1.05);
+}
+
+
 
 	sub {
 		font-size: 0.8em;
