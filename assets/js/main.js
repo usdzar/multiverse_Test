@@ -266,7 +266,7 @@ $main.on('click', 'a[target="_blank"]', function(event) {
 				popupLoaderText: '',
 				popupSpeed: 300,
 				popupWidth: 150,
-				selector: '.thumb > a.image',
+selector: '.thumb > a.image, .thumb > a.gallery-link',
 				usePopupCaption: true,
 				usePopupCloser: true,
 				usePopupDefaultStyling: false,
@@ -287,6 +287,7 @@ $main.on('click', 'a[target="_blank"]', function(event) {
 
 
 })(jQuery);
+
 
 
 
