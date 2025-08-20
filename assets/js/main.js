@@ -234,6 +234,13 @@
 					// Hide original img.
 						$image_img.hide();
 
+
+$main.on('click', 'a[target="_blank"]', function(event) {
+    // Let browser handle it!
+    event.stopPropagation(); // But DO NOT call preventDefault()
+});
+
+				
 			});
 
 		// Poptrox.
@@ -280,5 +287,6 @@
 
 
 })(jQuery);
+
 
 
