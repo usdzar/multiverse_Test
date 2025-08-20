@@ -129,7 +129,7 @@
 			$body
 				.on('click', function(event) {
 
-					if ($body.hasClass('content-active')) {
+//					if ($body.hasClass('content-active')) {
 
 //						event.preventDefault();
 						event.stopPropagation();
@@ -280,3 +280,4 @@
 
 
 })(jQuery);
+
