@@ -131,7 +131,7 @@
 
 					if ($body.hasClass('content-active')) {
 
-						event.preventDefault();
+//						event.preventDefault();
 						event.stopPropagation();
 
 						$panels.trigger('---hide');
@@ -277,5 +277,6 @@
 				breakpoints.on('>xsmall', function() {
 					$main[0]._poptrox.windowMargin = 50;
 				});
+
 
 })(jQuery);
