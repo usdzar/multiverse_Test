@@ -132,11 +132,11 @@
 //					if ($body.hasClass('content-active')) {
 
 //						event.preventDefault();
-						event.stopPropagation();
+//						event.stopPropagation();
 
-						$panels.trigger('---hide');
+//						$panels.trigger('---hide');
 
-					}
+//					}
 
 				});
 
@@ -280,4 +280,5 @@
 
 
 })(jQuery);
+
 
